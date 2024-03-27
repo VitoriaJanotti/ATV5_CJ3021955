@@ -91,9 +91,9 @@ namespace ATV5_CJ3021955
                     
                     if (mil < 1000)
                     {
-                        for (div = 1000; div <= mil; div--);
+                        for (div = 1000; div >= mil; div--)
                         {
-                            if ((div % 2) == 0);
+                            if ((div % 2) == 0)
                             {
                                 Console.WriteLine(div);
                             }
